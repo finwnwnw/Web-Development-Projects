@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hospital Reporting System</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="light-mode">
+    <h1>Hospital Reporting System</h1>
+  </header>
+
+  <button  class="toggle-button">Dark Mode</button>
+
+  <main class="container">
+    <form class="report-form">
+      <h2>Patient Report</h2>
+
+      <label>Patient Name</label>
+      <input type="text" placeholder="Enter patient name">
+
+      <label>Age</label>
+      <input type="number" placeholder="Enter age">
+
+      <label>Department</label>
+      <select>
+        <option>Emergency</option>
+        <option>Cardiology</option>
+        <option>Neurology</option>
+        <option>Orthopaedics</option>
+      </select>
+
+      <label>Report Details</label>
+      <textarea placeholder="Enter report details"></textarea>
+
+      <button class="submit-button" type="submit">Submit Report</button>
+    </form>
+  </main>
+
+</body>
+</html>
